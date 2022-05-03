@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%,hsla(0,0%,100%,1) 0,transparent 53%),radial-gradient(at 100% 60%,rgb(0,0,0) 0,transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.todo-input {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  padding: 0;
+  margin: 0;
+}
